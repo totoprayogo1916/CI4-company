@@ -1,17 +1,16 @@
 {
-	"name": "javawebmedia/compro-codeigniter-4",
-	"type": "project",
+	"name": "totoprayogo1916/ci4-company",
 	"description": "Company Profile Website Full Features with CI4",
-	"homepage": "https://javawebmedia.com",
 	"license": "MIT",
+	"type": "project",
+	"homepage": "https://github.com/totoprayogo1916/CI4-company",
 	"require": {
-		"php": "^7.3||^8.0",
+		"php": "^7.3 || ^8.0",
 		"codeigniter4/framework": "^4"
 	},
 	"require-dev": {
 		"fakerphp/faker": "^1.9",
-		"mikey179/vfsstream": "^1.6",
-		"phpunit/phpunit": "^9.1"
+		"mikey179/vfsstream": "^1.6"
 	},
 	"suggest": {
 		"ext-fileinfo": "Improves mime type detection for files"
@@ -24,18 +23,5 @@
 		"exclude-from-classmap": [
 			"**/Database/Migrations/**"
 		]
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Tests\\Support\\": "tests/_support"
-		}
-	},
-	"scripts": {
-		"test": "phpunit"
-	},
-	"support": {
-		"forum": "http://forum.codeigniter.com/",
-		"source": "https://github.com/codeigniter4/CodeIgniter4",
-		"slack": "https://codeigniterchat.slack.com"
 	}
 }
